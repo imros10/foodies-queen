@@ -2,12 +2,17 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
+h1{
+    color: #575757;
+}
 .flexible-display{
     display: flex;
 }
 .half-width{
     width: 50%;
-    padding-left: ;
+}
+section{
+    margin-bottom: 50px;
 }
 .header-area{
 padding-left: 6%;
@@ -23,7 +28,7 @@ padding-right: 5%;
 }
 .header-area p{
     padding-bottom: 40px;
-    color: rgb(99, 98, 98);
+    color: #828282;
     line-height: 1.6em;
 }
 .header-area img{
@@ -38,13 +43,34 @@ padding-right: 5%;
     padding: 20px 40px;
     font-weight: 600px;
     color: white;
-     border-radius: 10px;
+     border-radius: 25px;
      box-shadow: 1px 0px 12px 1px #70b3f1c4;
 }
-.about-area{
-    padding-left: 6%;
+.about-section{
+    padding-left: 12%;
     padding-right: 5%;
+    padding-top: 5%;
+    margin-bottom: 100px;
+    background-image: url(../images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.about-area img{
-width: 50%;
+.about-section img{
+width: 60%;
+}
+.about-section h1{
+    color: #888888;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.about-section p{
+    padding-bottom: 70px;
+    color: #828282;
+    line-height: 1.6em;
+    
+}
+.about-text-area{
+    padding-top: 40px;
+    padding-bottom: px;
 }
