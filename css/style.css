@@ -15,9 +15,12 @@ h1{
 section{
     margin-bottom: 40px;
 }
+/* This is header area */
+
 .header-area{
 padding-left: 6%;
 padding-right: 5%;
+margin-top: 30px;
 }
 .header-area h1{
     font-size: 50px;
@@ -47,6 +50,8 @@ padding-right: 5%;
      border-radius: 25px;
      box-shadow: 1px 0px 12px 1px #70b3f1c4;
 }
+
+/* This is About area */
 .about-section{
     padding-left: 12%;
     padding-right: 5%;
@@ -69,15 +74,13 @@ width: 60%;
     padding-bottom: 90px;
     color: #504f4f;
     line-height: 1.6em;
-    
 }
 .about-text-area{
     padding-top: 40px;
     padding-bottom: px;
 }
-.items-section{
-    
-}
+
+/* This is Items area */
 .items-section h1{
     text-align: center;
     color: #888888;
@@ -114,6 +117,8 @@ width: 60%;
 .items-width img{
     width: 100%;
 }
+
+/* This is Count area */
 .count-section{
     box-shadow: #80808073 1px 0px 20px 0px;
     margin: 8% 8%;
@@ -134,6 +139,49 @@ width: 60%;
     font-size: 15px;
     margin-top: -25px;
 }
+
+/* This is Review area */
+.review-section h1{
+    text-align: center;
+    font-size: 40px;
+    color: #888888;
+    font-weight: 800;
+}
+.review-section{
+margin: 0% 5%;
+margin-bottom: 5%;
+}
+.main-reviews{
+    width: 40%;
+    box-shadow: #80808073 1px 0px 20px 0px;
+    margin: 1% 2%;
+    padding: 25px 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+.main-reviews p{
+    color: #797676;
+    line-height: 1.6em;
+    
+}
+.main-reviews span{
+    font-size: 30px;
+    color: red;
+}
+.main-reviews h3{
+    color: #1B8EF1;
+    margin-bottom: -1px;
+}
+.review-person-image{
+width: 15%;
+border-radius: 50%;
+}
+.review-icon{
+    width: 20%;
+}
+
+
+/* This is Footer area */
 footer{
     background: #0B0D17;
     text-align: center;
@@ -144,9 +192,9 @@ footer h2{
     text-transform: uppercase;
 }
 footer span{
-background: -webkit-linear-gradient(#1094FC,#A5C9EE);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#1094FC,#A5C9EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 footer p{
     color: white;
