@@ -7,12 +7,13 @@ h1{
 }
 .flexible-display{
     display: flex;
+    justify-content: center;
 }
 .half-width{
     width: 50%;
 }
 section{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .header-area{
 padding-left: 6%;
@@ -60,17 +61,99 @@ padding-right: 5%;
 width: 60%;
 }
 .about-section h1{
-    color: #888888;
-    font-size: 30px;
+    color: #535353;
+    font-size: 40px;
     padding-bottom: 20px;
 }
 .about-section p{
-    padding-bottom: 70px;
-    color: #828282;
+    padding-bottom: 90px;
+    color: #504f4f;
     line-height: 1.6em;
     
 }
 .about-text-area{
     padding-top: 40px;
     padding-bottom: px;
+}
+.items-section{
+    
+}
+.items-section h1{
+    text-align: center;
+    color: #888888;
+    font-size: 35px;
+
+}
+.items-section p{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.6em;
+}
+.items-area h2{
+ padding-top: 20px;   
+}
+.items-area{
+    margin-top: 30px;
+}
+.items-area p{
+    padding-bottom: 20px;
+    color: #353434;
+    line-height: 1.6em;
+    width: 100% ;
+    text-align: left;
+    
+}
+.items-width{
+    width: 23%;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    box-shadow: #80808073 1px 0px 20px 0px;
+    border-radius: 20px;
+}
+.items-width img{
+    width: 100%;
+}
+.count-section{
+    box-shadow: #80808073 1px 0px 20px 0px;
+    margin: 8% 8%;
+    border-radius: 20px;
+}
+.count-items{
+    width: 30%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+.count-items h1{
+    font-size: 40px;
+    color: black;
+    font-weight: 800;
+}
+.count-items p{
+    font-size: 15px;
+    margin-top: -25px;
+}
+footer{
+    background: #0B0D17;
+    text-align: center;
+   padding: 1% 0% 5% 0%;
+}
+footer h2{
+    color: #5B5B5B;
+    text-transform: uppercase;
+}
+footer span{
+background: -webkit-linear-gradient(#1094FC,#A5C9EE);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+footer p{
+    color: white;
+    padding-top: 20px;
+    font-size: 13px;
+}
+footer a{
+    text-decoration: none;
+    color: #1194FD;
 }
